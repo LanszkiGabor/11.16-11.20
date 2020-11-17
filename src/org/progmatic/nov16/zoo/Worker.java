@@ -5,8 +5,8 @@ import java.util.List;
 
 public class Worker {
 
-    private String name;
-    private List<Animal> animalsToLookAfter = new ArrayList<>();
+    private final String name;
+    private final List<Animal> animalsToLookAfter;
 
     public Worker(String name, List<Animal> animalsToLookAfter) {
         this.name = name;
@@ -15,6 +15,7 @@ public class Worker {
 
     public Worker(String name) {
         this.name = name;
+        animalsToLookAfter = new ArrayList<>();
     }
 
     public void doDailyRoutine() {
