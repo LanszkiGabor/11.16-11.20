@@ -18,4 +18,8 @@ public class Square implements Shape{
         return a * a;
     }
 
+    @Override
+    public String toString() {
+        return "Square";
+    }
 }

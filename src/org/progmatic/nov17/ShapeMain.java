@@ -14,6 +14,7 @@ public class ShapeMain {
     }
 
     public static void printInfo(Shape s) {
+        System.out.println(s.toString());
         System.out.println("Kerület: " + s.getCircumstance());
         System.out.println("Terület: " + s.getArea());
         System.out.println("Kettő aránya: " + s.getArea() / s.getCircumstance());

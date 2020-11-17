@@ -18,4 +18,8 @@ public class Hexagon implements Shape{
         return 3 * Math.sqrt(3) / 2 * (a * a);
     }
 
+    @Override
+    public String toString() {
+        return "Hexagon";
+    }
 }

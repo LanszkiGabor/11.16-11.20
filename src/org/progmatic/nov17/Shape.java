@@ -4,6 +4,6 @@ public interface Shape {
 
     double getCircumstance();
     double getArea();
-    String toString();
+    @Override String toString();
 
 }
