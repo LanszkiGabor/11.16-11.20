@@ -1,4 +1,4 @@
-package org.progmatic.nov17;
+package org.progmatic.nov17.sikbeli;
 
 public class Triangle implements Shape{
 
